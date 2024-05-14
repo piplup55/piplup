@@ -26,6 +26,6 @@ modules:
     - qemu-user-static-riscv
     - qemu-user-static-s390x
     - qemu-user-static-sh4
-    - qemu-user-static-spare
+    - qemu-user-static-sparc
     - qemu-user-static-xtensa
     - qemu-user-static
