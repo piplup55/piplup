@@ -9,25 +9,9 @@ modules:
       - usr: /usr
 
   - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
-    install:
-      - mozillavpn
-    remove:
-      - firewalld
-      - firewalld-filesystem
-      - ublue*
-      - qemu*
-  # - from-file: rpm-ostree.yml
+  - from-file: rpm-ostree.yml
 
   - type: default-flatpaks
-    notify: true
-    user:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (User)"
-      install:
-        - org.mozilla.firefox
-  # - from-file: user-flatpaks.yml
+  - from-file: user-flatpaks.yml
 
   - type: signing
