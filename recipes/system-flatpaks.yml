@@ -1,16 +1,22 @@
 modules:
 - type: default-flatpaks
   notify: true
-  user:
+  system:
     repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
     repo-name: flathub
-    repo-title: "Flathub (User)"
-    install:
+    repo-title: "Flathub (System-wide)"
+    remove:
       - org.mozilla.firefox
       - org.mozilla.Thunderbird
-      - com.protonvpn.www
-      - ch.protonmail.protonmail-bridge
+      - org.kde.okular
+      - org.kde.kweather
+      - org.kde.kclock
+      - org.kde.kcalc
+      - org.kde.gwenview
       - com.github.tchx84.Flatseal
       - io.github.dvlv.boxbuddyrs
       - io.flathub.flattool.Warehouse
+      - io.missioncenter.MissionCenter
       - org.fedoraproject.MediaWriter
+
+

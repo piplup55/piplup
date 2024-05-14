@@ -3,8 +3,8 @@ modules:
   repos:
     - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%.repo
   install:
-    - mozillavpn
-    - qt6-qtdeclarative
+    - plasma-systemmonitor
+    - konsole
   remove:
     - firewalld
     - firewalld-filesystem
