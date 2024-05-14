@@ -31,4 +31,3 @@ modules:
     - qemu-user-static-spare
     - qemu-user-static-xtensa
     - qemu-user-static
-  - type: signing
