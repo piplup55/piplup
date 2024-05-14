@@ -1,5 +1,5 @@
 repos:
-    - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
+  - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
 install:
   - mozillavpn
 remove:
