@@ -5,8 +5,6 @@ modules:
   install:
     - mozillavpn
   remove:
-    - firefox
-    - firefox-langpacks
     - firewalld
     - firewalld-filesystem
     - solaar-udev
