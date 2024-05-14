@@ -1,31 +1,33 @@
-repos:
-  - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
-install:
-  - mozillavpn
-remove:
-  - firefox
-  - firefox-langpacks
-  - firewalld
-  - firewalld-filesystem
-  - solaar-udev
-  - solaar
-  - ublue-os-luks
-  - ublue-os-udev-rules
-  - ublue-os-akmods-addons
-  - qemu-user-static-aarch64
-  - qemu-user-static-arm
-  - qemu-user-static-x86
-  - qemu-user-static-alpha
-  - qemu-user-static-cris
-  - qemu-user-static-hexagon
-  - qemu-user-static-hppa
-  - qemu-user-static-loongarch64
-  - qemu-user-static-m68k
-  - qemu-user-static-nios2
-  - qemu-user-static-ppc
-  - qemu-user-static-riscv
-  - qemu-user-static-s390x
-  - qemu-user-static-sh4
-  - qemu-user-static-spare
-  - qemu-user-static-xtensa
-  - qemu-user-static
+- type: rpm-ostree
+  repos:
+    - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
+  install:
+    - mozillavpn
+  remove:
+    - firefox
+    - firefox-langpacks
+    - firewalld
+    - firewalld-filesystem
+    - solaar-udev
+    - solaar
+    - ublue-os-luks
+    - ublue-os-udev-rules
+    - ublue-os-akmods-addons
+    - qemu-user-static-aarch64
+    - qemu-user-static-arm
+    - qemu-user-static-x86
+    - qemu-user-static-alpha
+    - qemu-user-static-cris
+    - qemu-user-static-hexagon
+    - qemu-user-static-hppa
+    - qemu-user-static-loongarch64
+    - qemu-user-static-m68k
+    - qemu-user-static-nios2
+    - qemu-user-static-ppc
+    - qemu-user-static-riscv
+    - qemu-user-static-s390x
+    - qemu-user-static-sh4
+    - qemu-user-static-spare
+    - qemu-user-static-xtensa
+    - qemu-user-static
+  - type: signing
