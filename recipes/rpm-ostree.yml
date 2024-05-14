@@ -9,7 +9,6 @@ modules:
     - firewalld-filesystem
     - solaar-udev
     - solaar
-    - ublue-os-luks
     - ublue-os-udev-rules
     - ublue-os-akmods-addons
     - qemu-user-static-aarch64
