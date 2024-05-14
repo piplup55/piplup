@@ -1,3 +1,4 @@
+modules:
 - type: rpm-ostree
   repos:
     - https://copr.fedorainfracloud.org/coprs/nickavem/mozilla-vpn-client/repo/fedora-%OS_VERSION%/mozilla-vpn-client-%OS_VERSION%
