@@ -11,6 +11,7 @@ modules:
       - com.protonvpn.www
       - ch.protonmail.protonmail-bridge
       - com.github.tchx84.Flatseal
+      - org.mozilla.Thunderbird
       - io.github.dvlv.boxbuddyrs
       - io.flathub.flattool.Warehouse
       - org.fedoraproject.MediaWriter
