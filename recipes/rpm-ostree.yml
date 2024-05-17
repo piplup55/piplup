@@ -5,6 +5,7 @@ modules:
   install:
     - plasma-systemmonitor
     - konsole
+    - plasma-discover-rpm-ostree
   remove:
     - firewalld
     - firewalld-filesystem
