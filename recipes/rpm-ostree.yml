@@ -5,7 +5,6 @@ modules:
   install:
     - plasma-systemmonitor
     - konsole
-    # - plasma-discover-rpm-ostree
   remove:
     - firewalld
     - firewalld-filesystem
@@ -24,6 +23,10 @@ modules:
     - qemu-user-static-hppa
     - qemu-user-static-loongarch64
     - qemu-user-static-m68k
+    - qemu-user-static-microblaze
+    - qemu-user-static-mips
+    - qemu-user-static-or1k
+    # - qemu-guest-agent
     - qemu-user-static-nios2
     - qemu-user-static-ppc
     - qemu-user-static-riscv

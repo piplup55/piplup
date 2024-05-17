@@ -11,10 +11,11 @@ modules:
       - com.protonvpn.www
       - ch.protonmail.protonmail-bridge
       - org.mozilla.Thunderbird
-      # - com.github.tchx84.Flatseal
-      # - io.github.dvlv.boxbuddyrs
-      # - io.flathub.flattool.Warehouse
-      # - org.fedoraproject.MediaWriter
+      - com.github.tchx84.Flatseal
+      - io.github.dvlv.boxbuddyrs
+      - io.flathub.flattool.Warehouse
+      - org.fedoraproject.MediaWriter
+      - org.keepassxc.KeePassXC
     remove:
       - org.kde.okular
       - org.kde.kweather
