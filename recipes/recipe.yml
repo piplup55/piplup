@@ -9,7 +9,7 @@ modules:
       - usr: /usr
 
   - from-file: rpm-ostree.yml
-  - from-file: user-flatpaks.yml
+  #- from-file: user-flatpaks.yml
   - from-file: system-flatpaks.yml
 
   - type: signing
