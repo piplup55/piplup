@@ -1,4 +1,4 @@
-name: piplup
+name: piplup-kde
 description: This is my personal OS image.
 base-image: ghcr.io/ublue-os/aurora
 image-version: 39 # latest is also supported if you want new updates ASAP
@@ -8,8 +8,8 @@ modules:
     files:
       - usr: /usr
 
-  - from-file: rpm-ostree.yml
-  # - from-file: user-flatpaks.yml
-  - from-file: system-flatpaks.yml
+  - from-file: common/rpm.yml
+  - from-file: kde/rpm.yml
+  - from-file: kde/flatpak.yml
 
   - type: signing

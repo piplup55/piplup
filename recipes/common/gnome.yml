@@ -1,0 +1,14 @@
+name: piplup-gnome
+description: This is my personal OS image.
+base-image: ghcr.io/ublue-os/bluefin
+image-version: 40 # latest is also supported if you want new updates ASAP
+
+modules:
+  - type: files
+    files:
+      - usr: /usr
+
+  - from-file: common/rpm.yml
+  - from-file: gnome-flatpaks.yml
+
+  - type: signing
