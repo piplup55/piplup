@@ -9,6 +9,6 @@ modules:
       - usr: /usr
 
   - from-file: common/rpm.yml
-  - from-file: gnome-flatpaks.yml
+  - from-file: gnome/flatpak.yml
 
   - type: signing
