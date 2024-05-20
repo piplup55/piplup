@@ -7,9 +7,9 @@ modules:
   - type: files
     files:
       - usr: /usr
-
-  - from-file: common/rpm.yml
+  # run the DE specific tasks before common tasks
   - from-file: gnome/rpm.yml
   - from-file: gnome/flatpak.yml
+  - from-file: common/rpm.yml
 
   - type: signing
