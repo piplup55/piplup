@@ -13,7 +13,7 @@ modules:
       - org.mozilla.Thunderbird
       - com.github.tchx84.Flatseal
       - io.github.dvlv.boxbuddyrs
-      - io.flathub.flattool.Warehouse
+      - io.github.flattool.Warehouse
       - org.fedoraproject.MediaWriter
       - org.keepassxc.KeePassXC
     remove:
